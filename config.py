@@ -28,9 +28,9 @@ API_ID = int(os.environ.get("API_ID", "21567814"))
 # ------------------------------------------------
 API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 # ----------------D--------------------------------
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7954807388:AAGeH_MMFHWdj3nwBPfkyLVF1PZ7I4rIEGk")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7376874106:AAG6ixunBF8aF5HBR87kWsecj3Q8GJ5P0RQ")
 # -----------------A-------------------------------
-BOT_USERNAME = os.environ.get("extractor_protxtbot")
+BOT_USERNAME = os.environ.get("extrobintxtbot")
 # ------------------X------------------------------
 OWNER_ID = int(os.environ.get("OWNER_ID", "6126688051"))
 # ------------------X------------------------------
