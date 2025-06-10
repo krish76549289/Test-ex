@@ -30,16 +30,37 @@ buttons = InlineKeyboardMarkup([[
 modes_button = [[
                   InlineKeyboardButton("𝐂𝐔𝐒𝐓𝐎𝐌", callback_data="custom_"),
                   InlineKeyboardButton("𝐌𝐀𝐍𝐔𝐀𝐋/𝐋𝐈𝐒𝐓", callback_data="manual_"),
-                ],[
+                ],
+                [
                   InlineKeyboardButton("𝐁𝐀𝐂𝐊", callback_data="home_")
                 ]]
 
-
+  
 custom_button = [[
                   InlineKeyboardButton("𝐀𝐩𝐩𝐞𝐱 𝐕𝟐", callback_data="v2_"),
                   InlineKeyboardButton("𝐀𝐩𝐩𝐞𝐱 𝐕𝟑", callback_data="v3_"),
                   InlineKeyboardButton("𝐀𝐩𝐩𝐞𝐱 𝐕𝟒", callback_data="v4_"),
-                ],[
+                ],
+                    InlineKeyboardButton("👑 Aᴘᴘx", callback_data="appx_"),
+                    InlineKeyboardButton("👑 Aᴘᴘx Oᴛᴘ", callback_data="appxotp_")
+                ],
+                [
+                    InlineKeyboardButton("👑 CʟᴀssPʟᴜs", callback_data="classplus_"),
+                    InlineKeyboardButton("👑 Aᴅᴅᴀ 𝟸𝟺𝟽", callback_data="adda_")
+                ],
+                [
+                    InlineKeyboardButton("👑 Kʜᴀɴ Gs", callback_data="khan_"),   
+                    InlineKeyboardButton("👑 Pʜʏsɪᴄs Wᴀʟʟᴀʜ", callback_data="pw_")    
+                ],
+                [
+                    InlineKeyboardButton("👑 Sᴛᴜᴅʏ IQ", callback_data="iq_"),
+                    InlineKeyboardButton("👑 Kᴅ Cᴀᴍᴘᴜs", callback_data="kdlive_")         
+                ],
+                [
+                    InlineKeyboardButton("👑 Cᴀʀᴇᴇʀᴡɪʟʟ", callback_data="cw_"),   
+                    InlineKeyboardButton("👑 Uᴛᴋᴀʀsʜ", callback_data="utkarsh_")              
+                ],
+                [
                   InlineKeyboardButton("𝐇𝐎𝐌𝐄", callback_data="home_")
                 ]]
 
